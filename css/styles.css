@@ -4042,11 +4042,11 @@ input[type=button].btn-block {
     padding-left: 0;
   }
   .motoriders-logo {
-     max-width: 20%;
+     max-width: 25%;
      height: auto;
    }
   header.masthead h1 {
-    font-size: 2rem;
+    font-size: 1.5rem !important;
   }
 }
 @media (min-width: 576px) {
