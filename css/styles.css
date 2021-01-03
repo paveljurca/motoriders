@@ -159,8 +159,9 @@ sup {
 }
 
 a {
-/*  color: #f4623a; */
-  color: #c64545;
+/*  color: #f4623a;/
+  color: #c64545; */
+  color: #d82f2f;
   text-decoration: none;
   background-color: transparent;
 }
@@ -2439,8 +2440,8 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #fff;
-  background-color: #c64545;
-  border-color: #c64545;
+  background-color: #d82f2f;
+  border-color: #d82f2f;
 }
 .btn-primary:hover {
   color: #fff;
@@ -4048,6 +4049,9 @@ input[type=button].btn-block {
   header.masthead h1 {
     font-size: 1.5rem !important;
   }
+.partners-logo img {
+  max-width: 25%;
+}
 }
 @media (min-width: 576px) {
   .navbar-expand-sm {
@@ -4143,7 +4147,7 @@ input[type=button].btn-block {
   .fb-like, 
   .fb-like span, 
   .fb-like span iframe[style] { 
-      width: 65% !important; 
+      width: 70% !important; 
       text-align: center !important;
       margin-bottom: 2em !important;
   }
@@ -4154,6 +4158,9 @@ input[type=button].btn-block {
   header.masthead h1 {
     font-size: 3rem !important;
   }
+.partners-logo img {
+  max-width: 30%;
+}
 }
 @media (min-width: 992px) {
   /* FB like button */
@@ -6112,8 +6119,9 @@ a.close.disabled {
 
 .bg-primary {
   /*background-color: #f4623a !important;*/
-  /*background-color: #b50f0f !important;*/
-  background-color: #c64545 !important;
+  /*background-color: #b50f0f !important;
+  background-color: #c64545 !important;*/
+  background-color: #d82f2f !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
@@ -9814,23 +9822,9 @@ button.bg-dark:focus {
   color: #fff !important;
 }
 
-.motoriders-h1 {
-  /*color: #b50f0f !important;*/
-  font-family: "Montserrat";
-  color: #ffd700 !important;
-  /*background-color: #b50f0f !important;*/
-  text-shadow: #b50f0f 0.1em 0.1em 0.2em;
-  display: inline !important;
-  line-height: 1.5;
-}
-
-.motoriders-h2 {
-  line-height: 1.3;
-}
-
 .text-primary {
 /*  color: #f4623a !important; */
-  color: #c64545 !important;
+  color: #d82f2f !important;
 }
 
 a.text-primary:hover, a.text-primary:focus {
@@ -10134,6 +10128,10 @@ hr.light {
   #mainNav.navbar-scrolled .navbar-nav .nav-item .nav-link:hover {
     color: #f4623a;
   }
+  #mainNav.navbar-scrolled .motoriders-logo {
+     max-width: 80%;
+     height: auto;
+  }
 }
 
 header.masthead {
@@ -10143,8 +10141,11 @@ header.masthead {
 background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../assets/img/bg-motoriders-most.jpg");
 
 background: linear-gradient(315deg, rgba(199, 233, 251, 0.8) 0%, rgba(230, 29, 140, 0.8) 74%), url("../assets/img/bg-motoriders-most.jpg");
+
+PINK GRADIENT
+background: linear-gradient(315deg, rgba(199, 233, 251, 0.3) 50%, rgba(230, 29, 140, 0.8) 74%), url("../assets/img/bg-motoriders-most.jpg");
 */
-  background: linear-gradient(315deg, rgba(199, 233, 251, 0.3) 50%, rgba(230, 29, 140, 0.8) 74%), url("../assets/img/bg-motoriders-most.jpg");
+  background: linear-gradient(315deg, rgba(45, 52, 54, 0.3) 55%, rgba(45, 52, 54, 0.8) 74%), url("../assets/img/bg-motoriders-most.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -10221,3 +10222,108 @@ header.masthead h1 {
 .most-icons h3 {
   font-size: 150%;
 }
+.partners-logo img {
+  width: 50%;
+}
+#motoriders {
+  background: url('../assets/img/stardust.png') repeat;
+}
+.motoriders-h1 {
+  /*color: #b50f0f !important;*/
+  font-family: "Montserrat";
+  color: #ffd700 !important;
+  /*background-color: #b50f0f !important;*/
+  text-shadow: #b50f0f 0.1em 0.1em 0.3em;
+  display: inline !important;
+  line-height: 1.5;
+}
+.motoriders-h2 {
+  text-shadow: black 0.1em 0.1em 1em;
+}
+.motoriders-event {
+  line-height: 1.3;
+}
+#most {
+  background: url('../assets/img/grid.png') repeat;
+}
+#events {
+  background: url('../assets/img/pinkdust.png') repeat;
+}
+#contact,
+.bg-footer {
+  background: url('../assets/img/concrete_wall.png') repeat;
+}
+.text-silver {
+  color: silver;
+}
+.bg-grey {
+  background-color: lightgrey;
+}
+.text-agentur {
+/* #c64545 */
+  color: #f4623a;
+}
+#contact h2 {
+  line-height: 1.6;
+}
+#events h4 {
+  font-size: 1.3em;
+}
+#events td,
+#events tbody th {
+  background-color: #343a40 !important;
+}
+#events .th-borderless {
+  border: 0;
+}
+#events tbody td {
+  justify-content: center !important;
+}
+#events .btn {
+  border-radius: .5rem !important;
+}
+#events .dates {
+  letter-spacing: .07rem;
+}
+.event-date.hide,
+.hide {
+  display: none;
+}
+.event-date.show {
+  display: initial;
+}
+/* Bootstrap Datepicker */
+.input-group {
+    border-radius: 30rem;
+}
+
+input.form-control {
+    border-radius: 30rem 0 0 30rem;
+    border: none;
+}
+
+input.form-control:focus {
+    box-shadow: none;
+}
+
+input.form-control::placeholder {
+    font-style: italic;
+}
+
+.input-group-text {
+    border-radius: 0 30rem 30rem 0;
+    border: none;
+}
+
+.datepicker-dropdown {
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+span.month.active {
+  background: #343a40 !important;
+}
+th.clear {
+ color: #c64545;
+}
+/* end Bootstrap Datepicker */
+
+
