@@ -12,7 +12,7 @@ v01
     	minViewMode: "months",
         clearBtn: true,
         language: "de",
-        autoclose: true,
+        autoclose: false,
 	startDate: "06-2021", // start season in June
         beforeShowMonth: function (date) {
     	  var m = date.getMonth();

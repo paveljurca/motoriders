@@ -4043,12 +4043,9 @@ input[type=button].btn-block {
     padding-left: 0;
   }
   .motoriders-logo {
-     max-width: 25%;
+     max-width: 15%;
      height: auto;
    }
-  header.masthead h1 {
-    font-size: 1.5rem !important;
-  }
 .partners-logo img {
   max-width: 25%;
 }
@@ -4095,12 +4092,15 @@ input[type=button].btn-block {
     padding-left: 0;
   }
   .motoriders-logo {
-     max-width: 40%;
+     max-width: 25%;
      height: auto;
    }
-  header.masthead h1 {
-    font-size: 2.2rem !important;
-  }
+	header.masthead h1 {
+	  font-size: 2.5rem;
+	}
+	header.masthead h2 {
+	  font-size: 1.3rem !important;
+	}
 }
 @media (min-width: 768px) {
   .navbar-expand-md {
@@ -4132,6 +4132,12 @@ input[type=button].btn-block {
   .navbar-expand-md .navbar-toggler {
     display: none;
   }
+	header.masthead h1 {
+	  font-size: 3rem;
+	}
+	header.masthead h2 {
+	  font-size: 1.5rem !important;
+	}
 }
 @media (max-width: 991.98px) {
   .navbar-expand-lg > .container,
@@ -4155,9 +4161,6 @@ input[type=button].btn-block {
      max-width: 60%;
      height: auto;
    }
-  header.masthead h1 {
-    font-size: 3rem !important;
-  }
 .partners-logo img {
   max-width: 30%;
 }
@@ -10129,7 +10132,7 @@ hr.light {
     color: #f4623a;
   }
   #mainNav.navbar-scrolled .motoriders-logo {
-     max-width: 80%;
+     max-width: 60%;
      height: auto;
   }
 }
@@ -10151,9 +10154,6 @@ background: linear-gradient(315deg, rgba(199, 233, 251, 0.3) 50%, rgba(230, 29, 
   background-attachment: scroll;
   background-size: cover;
 }
-header.masthead h1 {
-  font-size: 3.5rem;
-}
 @media (min-width: 992px) {
   header.masthead {
     height: 100vh;
@@ -10164,14 +10164,23 @@ header.masthead h1 {
   header.masthead p {
     font-size: 1.15rem;
   }
-  header.masthead h1 {
-    font-size: 4.5rem;
-  }
+	header.masthead h1 {
+	  font-size: 4rem;
+	}
+	header.masthead h2 {
+	  font-size: 2rem !important;
+	}
 }
 @media (min-width: 1200px) {
   header.masthead h1 {
     font-size: 5rem;
   }
+	header.masthead h1 {
+	  font-size: 5rem;
+	}
+	header.masthead h2 {
+	  font-size: 2.5rem !important;
+	}
 }
 
 #portfolio .container-fluid, #portfolio .container-sm, #portfolio .container-md, #portfolio .container-lg, #portfolio .container-xl {
@@ -10223,7 +10232,10 @@ header.masthead h1 {
   font-size: 150%;
 }
 .partners-logo img {
-  width: 50%;
+  max-width: 40%;
+}
+#mainNav {
+  padding: .4em 1em !important;
 }
 #motoriders {
   background: url('../assets/img/stardust.png') repeat;
@@ -10283,7 +10295,7 @@ header.masthead h1 {
   border-radius: .5rem !important;
 }
 #events .dates {
-  letter-spacing: .07rem;
+  letter-spacing: .02rem;
 }
 .event-date.hide,
 .hide {
@@ -10292,6 +10304,16 @@ header.masthead h1 {
 .event-date.show {
   display: initial;
 }
+.bg-event-btn {
+  background-color: #1d2124 !important;
+}
+a.bg-event-btn:hover,
+a.bg-event-btn:focus {
+  background-color: #343a40 !important;
+}
+/* end Motoriders custom */
+
+
 /* Bootstrap Datepicker */
 .input-group {
     border-radius: 30rem;
