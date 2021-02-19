@@ -12,7 +12,7 @@ v01
     	minViewMode: "months",
         clearBtn: true,
         language: "de",
-        autoclose: false,
+        autoclose: true,
 	startDate: "06-2021", // start season in June
         beforeShowMonth: function (date) {
     	  var m = date.getMonth();
@@ -21,6 +21,11 @@ v01
             return false;
           }
         }
+    });
+
+    /* pop-up datepicker when clicked on the calendar symbol */
+    $('#icon-calendar').on("click", function () {
+      $('#eventsFilter').datepicker('show');
     });
 
 

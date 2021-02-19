@@ -113,12 +113,31 @@
 
 /* CUSTOM */
 #signup {
-  background: url("../assets/img/form_submit.jpg") no-repeat;
+  background: linear-gradient(315deg, rgba(184, 198, 219, 0.1) 0%, rgba(245, 247, 250, 0.9) 74%), url("../assets/img/form_submit.jpg") no-repeat;
+}
+.card-body {
+  padding: 1em 0;
 }
 .card-body .motoriders-logo {
-  max-width: 40%;
+  max-width: 30%;
   height: auto;
 }
 .card-body h3 {
   font-size: 1.3rem;
+}
+.card-body .fa-check-circle {
+  color: #dfe6e3 !important;
+}
+.card-body .list-group-item {
+  background-color: rgba(245, 245, 245, 0.1);
+  font-family: "Merriweather Sans", Montserrat;
+}
+.signup-card {
+  border-radius: .4rem;
+  overflow: hidden;
+  z-index: 1;
+  border: 2px solid white;
+}
+.pickup-date-size {
+  font-size: 1.1rem;
 }

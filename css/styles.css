@@ -10102,10 +10102,10 @@ hr.light {
     color: #fff;
   }
   #mainNav .navbar-nav .nav-item .nav-link {
-    color: rgba(255, 255, 255, 0.7);
+    color: rgba(0,0,0,0.8);
     padding: 0 1rem;
-    /* HIDE NAVBAR WHILE ON TOP OF THE SITE */
-    visibility: hidden;
+    /* HIDE NAVBAR WHILE ON TOP OF THE SITE
+    visibility: hidden; */
   }
   #mainNav .navbar-nav .nav-item .nav-link:hover {
     color: #fff;
@@ -10125,8 +10125,8 @@ hr.light {
   }
   #mainNav.navbar-scrolled .navbar-nav .nav-item .nav-link {
     color: #212529;
-    /* SHOW NAVBAR WHILE NOT ON TOP OF THE SITE */
-    visibility: visible;
+    /* SHOW NAVBAR WHILE NOT ON TOP OF THE SITE
+    visibility: visible; */
   }
   #mainNav.navbar-scrolled .navbar-nav .nav-item .nav-link:hover {
     color: #f4623a;
@@ -10281,9 +10281,11 @@ background: linear-gradient(315deg, rgba(199, 233, 251, 0.3) 50%, rgba(230, 29, 
 #events h4 {
   font-size: 1.3em;
 }
-#events td,
-#events tbody th {
-  background-color: #343a40 !important;
+#events table {
+  font-size: 1.2rem;
+}
+#events .table-hover tbody tr {
+  background-color: rgba(52, 58, 64, 0.5) !important;
 }
 #events .th-borderless {
   border: 0;
@@ -10310,6 +10312,15 @@ background: linear-gradient(315deg, rgba(199, 233, 251, 0.3) 50%, rgba(230, 29, 
 a.bg-event-btn:hover,
 a.bg-event-btn:focus {
   background-color: #343a40 !important;
+}
+.event-date:hover {
+  color: inherit !important;
+}
+#events .table-hover tbody tr:hover {
+  background-color: rgba(108, 117, 125, 0.5) !important;
+}
+#events tbody tr {
+  cursor: pointer;
 }
 /* end Motoriders custom */
 
